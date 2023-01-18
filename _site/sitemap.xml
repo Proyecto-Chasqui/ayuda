@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://help.tiledesk.com/categories/</loc>
+<loc>http://localhost:4000/categories/</loc>
 </url>
 <url>
-<loc>https://help.tiledesk.com/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://help.tiledesk.com/pages/</loc>
+<loc>http://localhost:4000/pages/</loc>
 </url>
 <url>
-<loc>https://help.tiledesk.com/tags/</loc>
+<loc>http://localhost:4000/tags/</loc>
 </url>
 <url>
-<loc>https://help.tiledesk.com/year-archive/</loc>
+<loc>http://localhost:4000/year-archive/</loc>
 </url>
 <url>
-<loc>https://help.tiledesk.com/blog/</loc>
+<loc>http://localhost:4000/blog/</loc>
 </url>
 <url>
-<loc>https://help.tiledesk.com/admin/</loc>
-<lastmod>2022-01-12T18:48:50+01:00</lastmod>
+<loc>http://localhost:4000/admin/</loc>
+<lastmod>2023-01-13T17:33:29+01:00</lastmod>
 </url>
 </urlset>

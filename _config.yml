@@ -26,7 +26,7 @@ baseurl: "" #"/614c8b47bf2d200019128ae4-614c8b75c7b4000023a22beb" # the subpath 
 google_site_verification: ""
 # Google Analytics Console
 google_analytics: ""
-locale: en #- The locale these tags are marked up in. Of the format # BACKEND
+locale: es #- The locale these tags are marked up in. Of the format # BACKEND
 language_TERRITORY:  #Default is en_US. Takes priority over existing config key 
 # lang:
 ## SEO CONFIGURAZIONE

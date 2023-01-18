@@ -143,6 +143,7 @@ es: &DEFAULT_ES
   section_posts              : "Publicaciones de"
   all_pages                  : "Paginas"
   insert_an_article          : "UPS! Parece que no hay contenido."
+  hc_presentation            : "Hola, ¿cómo te podemos ayudar?"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:

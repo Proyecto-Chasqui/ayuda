@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang=en>
+<html lang=es>
 <head>
     <!-- meta -->
 	<!-- NO INDEX DEL SITO DA FILE HEADER YML-->
@@ -8,21 +8,22 @@
 	  <!-- LOGS: noindex -->
 	
     <meta charset="utf-8">
+	<!-- v1.0.36 -->
 	<!--SEO-->
 	<!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Page could not be found</title>
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Page could not be found" />
-<meta property="og:locale" content="en" />
+<meta property="og:locale" content="es" />
 <meta name="description" content="Meta description for 404 page" />
 <meta property="og:description" content="Meta description for 404 page" />
-<link rel="canonical" href="https://help.tiledesk.com/404.html" />
-<meta property="og:url" content="https://help.tiledesk.com/404.html" />
+<link rel="canonical" href="http://localhost:4000/404.html" />
+<meta property="og:url" content="http://localhost:4000/404.html" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Page could not be found" />
 <meta name="google-site-verification" content="" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Page could not be found","url":"https://help.tiledesk.com/404.html","description":"Meta description for 404 page","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/404.html","description":"Meta description for 404 page","headline":"Page could not be found","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 	
@@ -50,24 +51,24 @@
 	<meta name="twitter:card"  content="summary"><meta name="twitter:image" content="">
 	<!--publish_date for linkedin -->
 		
-	
     <!--  Add Favicon -->
 	
 	
 	<link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon"/>
 	<link rel="icon" href="/assets/images/favicon.png" type="image/x-icon"/>
 	
-	<!-- Add MIO CSS File -->
-    <link rel="stylesheet" href="/assets/css/my_help_center.css "/>
 	<!-- Add CSS File -->
     <link rel="stylesheet" href="/assets/css/app.min.css "/>
-	
+	<!-- Add MIO CSS File -->
+    <link rel="stylesheet"  id="myLinkd" media="screen and (min-width: 401px)" href="/assets/css/my_help_center.css "/>
+	<!-- Add CSS x Widget di Tiledesk -->
+	<link rel="stylesheet" id="myLinkw" media="screen and (max-width: 400px)" href="/assets/css/widget.css"/> 
 	<!-- Add BUILDING CSS  -->
 	<!-- <link rel="stylesheet" href="/assets/css/building.css "/> -->
 	<!-- Add SITE-PREVIEW CSS  -->
 	<!-- <link rel="stylesheet" href="/assets/css/site-preview.css "/> -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
-	<!-- SERVER: production -->
+	<!-- SERVER: development -->
 	
 </head>
 
@@ -100,6 +101,7 @@
 	  
  
     <!-- Netfly Identity widget -->
+
 <script>
 	if (window.netlifyIdentity) {
 	  window.netlifyIdentity.on("init", user => {
@@ -124,8 +126,32 @@
 				});
 
 				});
-
-
 		</script>
+		<script>
+			/* LEGGO L'URL DELLA PAGINA */
+			console.log("LAYOUT POST");
+			const queryString1 = window.location.search;
+			console.log("queryString "+queryString1);
+			const urlParams1 = new URLSearchParams(queryString1);
+			console.log("urlParams "+urlParams1);
+			const collectiond = document.getElementById("myLinkd");
+			const collectionw = document.getElementById("myLinkw");
+			const frameEl = window.frameElement;
+			console.log("frameEL "+frameEl);
+			/* Add CSS x Widget di Tiledesk */
+			console.log("window.parent.location "+window.parent.location);
+			console.log("window.location "+window.location);
+			if (frameEl ||(urlParams1 == "embedded=tiledesk") || (window.parent.location !== window.location)) {
+			  console.log("HC into widget1");
+			  console.log("CSS "+collectionw.getAttribute("id"));
+			  console.log("CSS "+collectionw.getAttribute("media"));
+			} else {
+			 collectionw.setAttribute('media','screen and (max-width: 0px)');
+			 collectiond.setAttribute('media','screen and (min-width: 1px)');
+			 console.log("CSS "+collectionw.getAttribute("id"));
+			 console.log("CSS "+collectionw.getAttribute("media"));
+			 console.log("HC on web1");
+			}
+		 </script>
 </body>      
 </html>

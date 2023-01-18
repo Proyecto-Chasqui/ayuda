@@ -1,20 +1,11 @@
 items:
-  - text: Home
+  - text: Inicio
     url: /
     draft: false
-  - text: Go to Tiledesk
-    url: https://tiledesk.com/
-    draft: true
-  - text: Blog
-    url: https://tiledesk.com/blog/
-    draft: true
-  - text: Sign up
-    url: https://console.tiledesk.com
-    draft: true
-  - text: Categories
+  - text: Categorias
     url: /categories
     draft: true
-  - text: Tags
+  - text: Etquetas
     url: /tags
     draft: true
   - text: Year archive

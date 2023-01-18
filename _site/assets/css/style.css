@@ -836,6 +836,12 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 .white-text a:hover, .white-text a:focus {
   opacity: 0.8; }
 
+  .black-text h1, .black-text h2, .black-text h3, .black-text h4, .black-text h5, .black-text h6, .black-text a, .black-text ul, .black-text p, .black-text span, .black-text *, .black-text *::before, .black-text *::after {
+    color: #ffffff !important; }
+  
+  .black-text a:hover, .black-text a:focus {
+    opacity: 0.8; }
+
 .service-box {
   padding: 30px;
   border: 1px solid rgba(0, 1, 1, 0.01);

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang=en>
+<html lang=es>
 <head>
     <!-- meta -->
 	<!-- NO INDEX DEL SITO DA FILE HEADER YML-->
@@ -8,21 +8,22 @@
 	  <!-- LOGS: noindex -->
 	
     <meta charset="utf-8">
+	<!-- v1.0.36 -->
 	<!--SEO-->
 	<!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Blog" />
-<meta property="og:locale" content="en" />
+<meta property="og:locale" content="es" />
 <meta name="description" content="all posts of the help center" />
 <meta property="og:description" content="all posts of the help center" />
-<link rel="canonical" href="https://help.tiledesk.com/blog/" />
-<meta property="og:url" content="https://help.tiledesk.com/blog/" />
+<link rel="canonical" href="http://localhost:4000/blog/" />
+<meta property="og:url" content="http://localhost:4000/blog/" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Blog" />
 <meta name="google-site-verification" content="" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Blog","url":"https://help.tiledesk.com/blog/","description":"all posts of the help center","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/blog/","description":"all posts of the help center","headline":"Blog","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 	
@@ -50,24 +51,24 @@
 	<meta name="twitter:card"  content="summary"><meta name="twitter:image" content="">
 	<!--publish_date for linkedin -->
 		
-	
     <!--  Add Favicon -->
 	
 	
 	<link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon"/>
 	<link rel="icon" href="/assets/images/favicon.png" type="image/x-icon"/>
 	
-	<!-- Add MIO CSS File -->
-    <link rel="stylesheet" href="/assets/css/my_help_center.css "/>
 	<!-- Add CSS File -->
     <link rel="stylesheet" href="/assets/css/app.min.css "/>
-	
+	<!-- Add MIO CSS File -->
+    <link rel="stylesheet"  id="myLinkd" media="screen and (min-width: 401px)" href="/assets/css/my_help_center.css "/>
+	<!-- Add CSS x Widget di Tiledesk -->
+	<link rel="stylesheet" id="myLinkw" media="screen and (max-width: 400px)" href="/assets/css/widget.css"/> 
 	<!-- Add BUILDING CSS  -->
 	<!-- <link rel="stylesheet" href="/assets/css/building.css "/> -->
 	<!-- Add SITE-PREVIEW CSS  -->
 	<!-- <link rel="stylesheet" href="/assets/css/site-preview.css "/> -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
-	<!-- SERVER: production -->
+	<!-- SERVER: development -->
 	
 </head>
 
@@ -104,8 +105,10 @@
                             
                             
                             
-                            <li class="">
-                                <a href="">Home</a>
+                            <li class="active">
+                                
+                                    <a href="/" target="_blank">Inicio</a>
+                                
                                 
                             </li>
                             
@@ -209,6 +212,8 @@
     <div class="footer-wrapper section-spacing bminus-30">
         <div class="container">
             <div class="row">
+                
+                
                 <div class="col-md-6 col-lg-4">
                     <div class="footer-widget wow fadeIn" data-wow-duration="1s">
                         
@@ -217,32 +222,27 @@
                         <p></p>
                     </div>
                 </div>
+                
+                
+                
                 <div class="col-md-6 col-lg-2">
                     <div class="footer-widget wow fadeIn" data-wow-duration="2s">
-                        <h5 class="footer-title heading-5">Archives</h5>
+                        <h5 class="footer-title heading-5">Archivo</h5>
                         <ul class="footer-category list-inline">
                             <li><a href="/categories/">Categories</a></li>
                             <li><a href="/tags/">Tags</a></li>
-                            <li><a href="/year-archive/">Archives</a></li>
+                            <li><a href="/year-archive/">Articles</a></li>
                         </ul>
                     </div>
                 </div>
-                <!--
-                <div class="col-md-6 col-lg-3">
-                    <div class="footer-widget wow fadeIn" data-wow-duration="3s">
-                        <h5 class="footer-title heading-5">Get Help</h5>
-                        <ul class="footer-category list-inline">
-                            <li><a href="/pages/support">Support</a></li>
-                            <li><a href="/pages/submit-ticket">Supmit Ticket</a></li>
-                            <li><a href="/pages/register">Register</a></li>
-                            <li><a href="/pages/login">Login</a></li>
-                        </ul>
-                    </div>
-                </div>
-            -->
+                
+                
+                
+                
+                
                 <div class="col-md-6 col-lg-3">
                     <div class="footer-widget wow fadeIn" data-wow-duration="4s">
-                        <h5 class="footer-title heading-5">Follow Us</h5>
+                        <h5 class="footer-title heading-5">Síganos</h5>
                         <ul class="footer-socials list-inline">
                             
                             
@@ -269,40 +269,42 @@
                         </ul>
                     </div>
                 </div>
+                
                 <div class="col-md-6 col-lg-3">
-                    <!--
-                    <script type="application/javascript">
-                        var tiledesk_id = "";
-                        window.tiledeskSettings = 
-                        {
-                        projectid: tiledesk_id
-                        };
-                        (function(d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0];
-                        if (d.getElementById(id)) return;
-                        js = d.createElement(s); js.id = id; js.async=true;
-                        js.src = "https://widget.tiledesk.com/v4/launch.js";
-                        fjs.parentNode.insertBefore(js, fjs);
-                        //alert("stringa concatenata con " + js.id);
-                        //alert("tiledesk id " + );
-                        }(document, 'script', 'tiledesk-jssdk'));
-                       </script>
-                    -->
                        <script type="application/javascript">
-                        var tiledesk_id = "";
-                        window.tiledeskSettings= 
-                        {
-                            projectid: tiledesk_id
-                        };
-                        (function(d, s, id) { 
-                            var w=window; var d=document; var i=function(){i.c(arguments);};
-                            i.q=[]; i.c=function(args){i.q.push(args);}; w.Tiledesk=i;                    
-                            var js, fjs=d.getElementsByTagName(s)[0];
-                            if (d.getElementById(id)) return;
-                            js=d.createElement(s); 
-                            js.id=id; js.async=true; js.src="https://widget.tiledesk.com/v5/launch.js";
-                            fjs.parentNode.insertBefore(js, fjs);
-                        }(document,'script','tiledesk-jssdk'));
+                        /* LEGGO L'URL DELLA PAGINA PER CAPIRE SE SONO NEL WIDGET */
+			            console.log("CARICO IL WIDGET DI TILEDESK");
+			            const queryString2 = window.location.search;
+                        console.log("queryString-widget "+queryString2);
+			            const urlParams2 = new URLSearchParams(queryString2);
+			            console.log("urlParams-widget "+urlParams2);
+                        console.log("window.parent.location "+window.parent.location);
+			            console.log("window.location "+window.location);
+                        var widget_active = "";
+                        console.log("widget_active ", widget_active);
+                        if ((urlParams2 == "embedded=tiledesk") || (window.parent.location === window.location)) {
+                            console.log("SONO NEL WEB ");
+                            if (widget_active == "true") {
+                            console.log("WIDGET ON ");
+                            var tiledesk_id = "";
+                            window.tiledeskSettings= 
+                            {
+                                projectid: tiledesk_id
+                            };
+                            (function(d, s, id) { 
+                                var w=window; var d=document; var i=function(){i.c(arguments);};
+                                i.q=[]; i.c=function(args){i.q.push(args);}; w.Tiledesk=i;                    
+                                var js, fjs=d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js=d.createElement(s); 
+                                js.id=id; js.async=true; js.src="https://widget.tiledesk.com/v5/launch.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }(document,'script','tiledesk-jssdk'));
+                            }
+                            if (widget_active == "false") {console.log("WIDGET OFF ");}
+                        } else {
+                            console.log("SONO NEL WIDGET ");
+                        }
                     </script>   
                     </div>
             </div>
@@ -311,7 +313,7 @@
     <div class="footer-wrapper">
         <div class="container">
             <div class="footer-copyright text-center">
-                <p> &copy; Copyright 2022  - Designed by <a href="https://tiledesk.com/">Tiledesk</a></p>
+                <p> &copy; Copyright 2023  - Powered by <a href="https://tiledesk.com/" target="_blank">Tiledesk</a></p>
             </div>
         </div>
     </div>
@@ -319,6 +321,7 @@
 </footer>
 <!-- End Footer Area -->
     <!-- Netfly Identity widget -->
+
 <script>
 	if (window.netlifyIdentity) {
 	  window.netlifyIdentity.on("init", user => {
@@ -343,8 +346,32 @@
 				});
 
 				});
-
-
 		</script>
+		<script>
+			/* LEGGO L'URL DELLA PAGINA */
+			console.log("LAYOUT POST");
+			const queryString1 = window.location.search;
+			console.log("queryString "+queryString1);
+			const urlParams1 = new URLSearchParams(queryString1);
+			console.log("urlParams "+urlParams1);
+			const collectiond = document.getElementById("myLinkd");
+			const collectionw = document.getElementById("myLinkw");
+			const frameEl = window.frameElement;
+			console.log("frameEL "+frameEl);
+			/* Add CSS x Widget di Tiledesk */
+			console.log("window.parent.location "+window.parent.location);
+			console.log("window.location "+window.location);
+			if (frameEl ||(urlParams1 == "embedded=tiledesk") || (window.parent.location !== window.location)) {
+			  console.log("HC into widget1");
+			  console.log("CSS "+collectionw.getAttribute("id"));
+			  console.log("CSS "+collectionw.getAttribute("media"));
+			} else {
+			 collectionw.setAttribute('media','screen and (max-width: 0px)');
+			 collectiond.setAttribute('media','screen and (min-width: 1px)');
+			 console.log("CSS "+collectionw.getAttribute("id"));
+			 console.log("CSS "+collectionw.getAttribute("media"));
+			 console.log("HC on web1");
+			}
+		 </script>
 </body>      
 </html>
