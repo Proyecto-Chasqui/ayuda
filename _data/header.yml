@@ -1,4 +1,5 @@
-favicon_url: ""
-logo_url: ""
-custom_color: "#6dc7ff"
+# https://tiledesk-cms-server-prod.herokuapp.com/63b47fbd017c8a001a3cdad7/63b4821a2a77a80023e20df9/settings
+favicon_url: "https://assets.tiledesk.com/images/23r3uj-favicon-96x96.png"
+logo_url: "https://assets.tiledesk.com/images/23r3uj-chasqui_logo.png"
+custom_color: "#71667c"
 robots: noindex
