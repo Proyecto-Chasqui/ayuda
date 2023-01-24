@@ -7,6 +7,10 @@ description: "all categories of the help center"
 <div class="topics-area bg-color1">
    <div class="topics-wrapper section-spacing bminus-30">
       <div class="container">
+
+         {% for category in site.data.categories %}
+         {{ category.name }}<br>
+         {% endfor %}
          <div class="col">
             <!--ELENCO DI TUTTE LE CATEGORIE-->
             {% assign article_number_tot = 0 %}
@@ -22,11 +26,11 @@ description: "all categories of the help center"
             {% assign display_mode = site.data.topicsarea.display_mode %}
             <!--CONTATORE POST DELLA CATEGORIA-->
             {% assign article_number = 0 %}
-            {% assign all_posts_of_category = site.categories[category_name] | where: 'category_key', nil | where:
+            {% assign all_posts_of_category = site.categories[name] | where: 'sulg', nil | where:
             'draft' ,'false' %}
             {% if display_mode == "article_in_category" %}
             {% if all_posts_of_category.size > 0 %}
-            {% assign all_posts_of_category_ord = site.categories[category_name] | where: 'category_key', nil | where:
+            {% assign all_posts_of_category_ord = site.categories[name] | where: 'slug', nil | where:
             'draft' ,'false' | sort: "order" %}
             {% for doc_post in all_posts_of_category_ord %}
             {% capture post_draft %}{{ doc_post.draft}}{% endcapture %}
@@ -41,7 +45,7 @@ description: "all categories of the help center"
             {% if display_mode == "all" %}
             <!--CICLO SU TUTTI GLI ARTICOLI DELLA CATEGORIA-->
             {% if all_posts_of_category.size > 0 %}
-            {% assign all_posts_of_category_ord = site.categories[category_name] | where: 'category_key', nil | where:
+            {% assign all_posts_of_category_ord = site.categories[name] | where: 'slug', nil | where:
             'draft' ,'false' | sort: "order" %}
             {% for post in all_posts_of_category_ord %}
             <!--CONTA POST NELLA CATEGORIA-->
@@ -53,7 +57,7 @@ description: "all categories of the help center"
             <!--PRENDO TUTTE LE SEZIONI SE SONO IN MODALITA' SEZIONI VISIBILI-->
             {% if display_mode == "all" or display_mode == "article_in_section" %}
             <!--{% assign all_sections =  site.data.category.category | where: 'category_key' , category_name | where: 'draft' ,'false' %} -->
-            {% assign all_sections = site.data.category.category | where: 'category_key' , category_name | where: 'type'
+            {% assign all_sections = site.data.category.category | where: 'slug' , name | where: 'type'
             , '(sezione)' | where: 'draft' ,'false' | sort: "order" %}
             {% assign sections = all_sections.size %}
             <!--CICLO SU TUTTE LE SEZIONI DELLA CATEGORIA-->
@@ -86,7 +90,7 @@ description: "all categories of the help center"
                   <header class="topics-title">
                      <!--DEB1: {{category_name}}-->
                      <!--CONTROLLO CHE CI SIA ALMENO UN ARTICOLO NELLA CATEGORIA-->
-                     {% assign all_posts = site.categories[category_name] | where: 'draft' ,'false' %}
+                     {% assign all_posts = site.categories[name] | where: 'slug' ,'false' %}
                      {% assign my_category_url = "/categories/" | append: category.url %}
                      {% if article_number > 0 %}
                      <h3 class="heading-3 text-capitalize font-weight-bold font-size-title">

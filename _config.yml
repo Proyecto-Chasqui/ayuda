@@ -93,7 +93,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
   - jekyll-sitemap
-
+  - jekyll-get-json
 collections:
   team_members:
     output: false
@@ -239,3 +239,11 @@ feed:
   collections:
     posts:
       path: "/index.xml"
+
+jekyll_get_json:
+  - data: header
+    json: 'https://tiledesk-cms-server-prod.herokuapp.com/63b47fbd017c8a001a3cdad7/63b4821a2a77a80023e20df9/settings'
+  - data: autori
+    json: 'https://tiledesk-cms-server-prod.herokuapp.com/63b47fbd017c8a001a3cdad7/63b4821a2a77a80023e20df9/users'
+  - data: categories
+    json: 'https://tiledesk-cms-server-prod.herokuapp.com/63b47fbd017c8a001a3cdad7/63b4821a2a77a80023e20df9/collections'
