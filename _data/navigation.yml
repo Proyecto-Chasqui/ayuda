@@ -4,7 +4,7 @@ items:
     draft: false
   - text: Categorias
     url: /categories
-    draft: true
+    draft: false
   - text: Etquetas
     url: /tags
     draft: true

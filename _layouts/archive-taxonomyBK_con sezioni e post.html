@@ -5,8 +5,8 @@ author_profile: false
  <!-- PAGINA ELENCO DEI POST DI UNA CATEGORIA -->
 {% include header.html %}
    <!-- Start Page Title Area -->
-   {% capture bg-cover-custom_color %}{{site.data.header.custom_color}}{% endcapture %}
-   <section class="page-title-area bg-cover-custom" style="background-color: {{bg-cover-custom_color}}!important;">
+   {% capture bg-cover-header_color %}{{site.data.header.header_color}}{% endcapture %}
+   <section class="page-title-area bg-cover-custom" style="background-color: {{bg-cover-header_color}}!important;">
       <div class="page-title-wrapper section-spacing">
          <div class="page-title text-center white-text">
             <h2 class="heading-2">{{page.title | replace: '_', '-' }}</h2>

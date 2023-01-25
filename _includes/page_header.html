@@ -1,9 +1,9 @@
-{% capture custom_color %}{{site.data.header.custom_color}}{% endcapture %}
+{% capture header_color %}{{site.data.header.header_color}}{% endcapture %}
 {% capture img_header %}{{site.data.header.img_header}}{% endcapture %}
 {% if img_header != ""%}
-      <section class="page-title-area bg-cover-custom" id="header_cover_img" style= "background-color:{{custom_color}}!important;background-image: url({{img_header}}); min-height: 450px; background-size: cover; background-repeat: no-repeat; background-position: center !important;"> 
+      <section class="page-title-area bg-cover-custom" id="header_cover_img" style= "background-color:{{header_color}}!important;background-image: url({{img_header}}); min-height: 450px; background-size: cover; background-repeat: no-repeat; background-position: center !important;"> 
    {% else %}
-      <section class="page-title-area bg-cover-custom" id="header_cover"  style="min-height: 450px; background-color:{{custom_color}}!important;">
+      <section class="page-title-area bg-cover-custom" id="header_cover"  style="min-height: 450px; background-color:{{header_color}}!important;">
    {% endif %}
 <div class="page-title-wrapper section-spacing">
     <div class="page-title text-center white-text">
