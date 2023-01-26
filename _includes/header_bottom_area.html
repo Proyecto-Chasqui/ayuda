@@ -25,8 +25,8 @@
             <div class="headline-logo">
               {% capture category_url %}{{category.url}}{% endcapture %} {%
               capture category_label %}{{category.name}}{% endcapture %} {%
-              assign category_url_cat = "/categories/" | append: category_url %}
-              {% capture category_icon %}{{category.icon}}{% endcapture %} {%
+              assign category_url_cat = "/categories/" | append: category.slug
+              %} {% capture category_icon %}{{category.icon}}{% endcapture %} {%
               capture category_button_label %}{{category.button_label}}{%
               endcapture %} {% capture category_description
               %}{{category.description}}{% endcapture %}

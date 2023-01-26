@@ -2,41 +2,27 @@
 layout: category_list
 title: Explorar categorías
 add_to_menu: false
-description: "all categories of the help center"
+description: "Todas las categorías"
 ---
 <div class="topics-area bg-color1">
     <div class="topics-wrapper section-spacing bminus-30">
         <div class="container">
-
-            {% for category in site.data.categories %}
-                {{ category.name }}<hr>
-            {% endfor %}
             <div class="col">
                 <!--ELENCO DI TUTTE LE CATEGORIE-->
                 {% assign article_number_tot = 0 %}
                 {% assign article_number = 0 %}
                 {% assign sections = 0 %}
-                {% assign all_categories = site.data.category.category | where: 'draft' ,'false' %}
-                {% for category in site.data.category.category %}
-                    {% capture category_name %}
-                        {{ category.key}}
-                    {% endcapture %}
-                    {% capture category_label %}
-                        {{ category.label}}
-                    {% endcapture %}
-                    {% capture category_draft %}
-                        {{ category.draft}}
-                    {% endcapture %}
-                    {% capture category_type %}
-                        {{ category.type}}
-                    {% endcapture %}
-                    {% if category_draft == "false" and category_type == '(categoria)' and category.size > 0 %}
+                {% assign all_categories = site.data.categories | where: 'status' ,'public' %}
+                {% for category in site.data.categories %}
+                    {% capture category_slug %}{{ category.slug}}{% endcapture %}
+                    {% capture category_label %}{{ category.name}}{% endcapture %}
+                    {% capture category_status %}{{ category.status}}{% endcapture %}
+                    {% if category_status == 'public' %}
                         {% assign display_mode = site.data.topicsarea.display_mode %}
-                        <!--CONTATORE POST DELLA CATEGORIA-->
                         {% assign article_number = 0 %}
-                        {% assign all_posts_of_category = site.categories[name] | where: 'sulg', nil | where:
-                  'draft' ,'false' %}
-                        {% if display_mode == "article_in_category" %}
+                        {% assign all_posts_of_category = site.data.articles | where: 'category', category._id | where:
+                  'status' ,'public' %}
+                        {% if display_mode == "article_in_category" %}a
                             {% if all_posts_of_category.size > 0 %}
                                 {% assign all_posts_of_category_ord = site.categories[name] | where: 'slug', nil | where:
                         'draft' ,'false' | sort: "order" %}
@@ -55,8 +41,8 @@ description: "all categories of the help center"
                         {% if display_mode == "all" %}
                             <!--CICLO SU TUTTI GLI ARTICOLI DELLA CATEGORIA-->
                             {% if all_posts_of_category.size > 0 %}
-                                {% assign all_posts_of_category_ord = site.categories[name] | where: 'slug', nil | where:
-                        'draft' ,'false' | sort: "order" %}
+                                {% assign all_posts_of_category_ord = site.data.articles | where: 'category', category._id | where:
+                                'status' ,'public' | sort: "order" %}
                                 {% for post in all_posts_of_category_ord %}
                                     <!--CONTA POST NELLA CATEGORIA-->
                                     {% assign article_number = article_number | plus: 1 %}
@@ -104,8 +90,8 @@ description: "all categories of the help center"
                                 <header class="topics-title">
                                     <!--DEB1: {{category_name}}-->
                                                          <!--CONTROLLO CHE CI SIA ALMENO UN ARTICOLO NELLA CATEGORIA-->
-                                    {% assign all_posts = site.categories[name] | where: 'slug' ,'false' %}
-                                    {% assign my_category_url = "/categories/" | append: category.url %}
+                                    {% assign all_posts = site.data.articles | where: 'category' , category._id | sort: "order" %}
+                                    {% assign my_category_url = "/categories/" | append: category.slug %}
                                     {% if article_number > 0 %}
                                         <h3 class="heading-3 text-capitalize font-weight-bold font-size-title">
                                             <a href="{{ my_category_url | append: '/' | relative_url }}">
@@ -119,8 +105,7 @@ description: "all categories of the help center"
                                     {% endif %}
                                 </header>
                                 <!--{% assign display_mode =  site.data.topicsarea.display_mode %}-->
-                                {% assign all_posts_of_category = site.categories[category_name] | where: 'category_key', nil | where:
-                  'draft' ,'false' %}
+                                {% assign all_posts_of_category = data.all_posts %}
                                 {% if display_mode == "article_in_category" %}
                                     <ul class="list-inline">
                                         {% if all_posts_of_category.size > 0 %}
@@ -142,13 +127,12 @@ description: "all categories of the help center"
                                 {% endif %}
                                 {% if display_mode == "all" %}
                                     <!--CICLO SU TUTTI GLI ARTICOLI DELLA CATEGORIA-->
-                                    {% if all_posts_of_category.size > 0 %}
-                                        {% assign all_posts_of_category_ord = site.categories[category_name] | where: 'category_key', nil |
-                  where: 'draft' ,'false' | sort: "order" %}
+                                    {% if all_posts.size > 0 %}
+                                        
                                         <ul class="list-inline">
-                                            {% for post in all_posts_of_category_ord %}
+                                            {% for post in all_posts %}
                                                 <li>
-                                                    <a href="{{ post.url | relative_url }}" class="article_link">{{ post.title }}
+                                                    <a href="{{ post.slug | prepend: '/articles/' | relative_url }}" class="article_link">{{ post.title }}
                                                     </a>
                                                 </li>
                                             {% endfor %}

@@ -24,9 +24,9 @@
         </li>
       {% endif %}
       {% if forloop.last %}
-        {% assign categoria =  site.data.category.category | where: 'key' ,page.title | where: 'type', '(categoria)' | first %}
-        {% assign sezione =  site.data.category.category | where: 'key' ,page.title | where: 'type', '(sezione)'| first %}
-        {% assign categ_sez =  site.data.category.category | where: 'key' ,sezione.category_key | where: 'type', '(categoria)' | first %}
+        {% assign categoria =  site.data.categories | where: 'slug' ,page.title | where: 'type', '(categoria)' | first %}
+        {% assign sezione =  site.data.categories| where: 'slug' ,page.title | where: 'type', '(sezione)'| first %}
+        {% assign categ_sez =  site.data.categories| where: 'key' ,sezione.category_key | where: 'type', '(categoria)' | first %}
         {% if categ_sez %}
         <li class="breadcrumb-item">
         <a href="{{ categ_sez.key | prepend: '/categories/' | relative_url | append: '/' }}" itemprop="item">

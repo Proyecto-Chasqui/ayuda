@@ -25,7 +25,7 @@ baseurl: "" #"/614c8b47bf2d200019128ae4-614c8b75c7b4000023a22beb" # the subpath 
 # Google Search Console
 google_site_verification: ""
 # Google Analytics Console
-google_analytics: ""
+google_analytics: "G-6JWK8SGVLM"
 locale: es #- The locale these tags are marked up in. Of the format # BACKEND
 language_TERRITORY:  #Default is en_US. Takes priority over existing config key 
 # lang:
@@ -247,3 +247,5 @@ feed:
 #     json: 'https://tiledesk-cms-server-prod.herokuapp.com/63b47fbd017c8a001a3cdad7/63b4821a2a77a80023e20df9/users'
 #   - data: categories
 #     json: 'https://tiledesk-cms-server-prod.herokuapp.com/63b47fbd017c8a001a3cdad7/63b4821a2a77a80023e20df9/collections'
+#   - data: articles
+#     json: 'https://tiledesk-cms-server-prod.herokuapp.com/63b47fbd017c8a001a3cdad7/63b4821a2a77a80023e20df9/contents?format=full'
