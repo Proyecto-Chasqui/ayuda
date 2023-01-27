@@ -46,7 +46,7 @@
 	<!--publish_date for linkedin -->
 	{% if page.date %}<meta name="publish_date" property="og:publish_date" content="{{ page.date | date_to_xmlschema }}" >{% endif %}	
     <!--  Add Favicon -->
-	{% capture favicon_url %}{{site.data.header.favicon_url}}{% endcapture %}
+	{% capture favicon_url %}{{site.data.header.favicon}}{% endcapture %}
 	{% if favicon_url != "" %}
 	<link rel="shortcut icon" href="{{ favicon_url | relative_url }}" type="image/x-icon"/>
 	<link rel="icon" href="{{ favicon_url | relative_url }}" type="image/x-icon"/>

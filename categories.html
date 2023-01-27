@@ -52,8 +52,8 @@ description: "Todas las categorías"
                         {% endif %}
                         <!--PRENDO TUTTE LE SEZIONI SE SONO IN MODALITA' SEZIONI VISIBILI-->
                         {% if display_mode == "all" or display_mode == "article_in_section" %}
-                            <!--{% assign all_sections =  site.data.category.category | where: 'category_key' , category_name | where: 'draft' ,'false' %} -->
-                            {% assign all_sections = site.data.category.category | where: 'slug' , name | where: 'type'
+                            <!--{% assign all_sections =  site.data.categories | where: 'category_key' , category_name | where: 'draft' ,'false' %} -->
+                            {% assign all_sections = site.data.categories | where: 'slug' , name | where: 'type'
                      , '(sezione)' | where: 'draft' ,'false' | sort: "order" %}
                             {% assign sections = all_sections.size %}
                             <!--CICLO SU TUTTE LE SEZIONI DELLA CATEGORIA-->
@@ -142,7 +142,7 @@ description: "Todas las categorías"
                                 <ul class="list-inline">
                                     <!--PRENDO TUTTE LE SEZIONI SE SONO IN MODALITA' SEZIONI VISIBILI-->
                                     {% if display_mode == "all" or display_mode == "article_in_section" %}
-                                        {% assign all_sections = site.data.category.category | where: 'category_key' , category_name |
+                                        {% assign all_sections = site.data.categories | where: 'category_key' , category_name |
                      where: 'type' , '(sezione)' | where: 'draft' ,'false' | sort: "order" %}
                                         {% assign sections = all_sections.size %}
                                         <!--CICLO SU TUTTE LE SEZIONI DELLA CATEGORIA-->
@@ -208,12 +208,6 @@ description: "Todas las categorías"
                   section.label }}</p>
                         </div>
 
-                        <!-- <div class="nocontent">
-               <h7 class="heading-7">
-                  <p class="center">{{site.data.ui-text[site.locale].category_no | default: "Create an article .."
-                     }}{{section.label}}</p>
-               </h7>
-            </div> -->
                         <br>
                     {% endif %}
                 </div>

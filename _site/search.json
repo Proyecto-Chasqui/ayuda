@@ -1,4 +1,211 @@
 [
   
   
+    {
+            "title"    : "Introducción a Chasqui",
+            "category" : "Pimeros pasos",
+            "tags"     : "",
+            "url"      : "/articles/introduccion-a-chasqui",
+            "date"     : "2023-01-24T15:11:25.208Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Por qué decimos que es un proyecto libre?",
+            "category" : "Pimeros pasos",
+            "tags"     : "",
+            "url"      : "/articles/por-qu-decimos-que-es-un-proyecto-libre",
+            "date"     : "2023-01-12T21:27:20.582Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Qué son las compras colectivas?",
+            "category" : "Compras colectivas",
+            "tags"     : "",
+            "url"      : "/articles/qu-son-las-compras-colectivas",
+            "date"     : "2023-01-12T15:47:09.797Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Aceptar un nuevo pedido",
+            "category" : "Gestión de los pedidos",
+            "tags"     : "",
+            "url"      : "/articles/aceptar-un-nuevo-pedido",
+            "date"     : "2023-01-12T15:45:38.018Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Tipos de entregas",
+            "category" : "Entregas y métodos de pago",
+            "tags"     : "",
+            "url"      : "/articles/tipos-de-entregas",
+            "date"     : "2023-01-12T15:41:31.732Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Tipos de clientes",
+            "category" : "Gestión de clientes",
+            "tags"     : "",
+            "url"      : "/articles/tipos-de-clientes",
+            "date"     : "2023-01-12T15:38:40.322Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Editar un producto",
+            "category" : "Gestión de catálogos",
+            "tags"     : "",
+            "url"      : "/articles/editar-un-producto",
+            "date"     : "2023-01-12T15:32:45.901Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo habilitar las ventas?",
+            "category" : "Puesta en marcha",
+            "tags"     : "",
+            "url"      : "/articles/cmo-habilitar-las-ventas",
+            "date"     : "2023-01-12T15:09:31.825Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Agregar los datos de contacto y redes sociales",
+            "category" : "Ajustes de la tienda",
+            "tags"     : "",
+            "url"      : "/articles/agregar-los-datos-de-contacto-y-redes-sociales",
+            "date"     : "2023-01-12T15:08:25.396Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Qué es la multitienda de Chasqui?",
+            "category" : "Chasqui por dentro",
+            "tags"     : "",
+            "url"      : "/articles/qu-es-la-multitienda-de-chasqui",
+            "date"     : "2023-01-12T15:06:28.256Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo esta conformado Chasqui?",
+            "category" : "Chasqui por dentro",
+            "tags"     : "",
+            "url"      : "/articles/cmo-esta-conformado-chasqui",
+            "date"     : "2023-01-12T15:05:44.300Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Qué es Chasqui?",
+            "category" : "Pimeros pasos",
+            "tags"     : "",
+            "url"      : "/articles/qu-es-chasqui",
+            "date"     : "2023-01-12T15:04:37.904Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Configurar la página ¿Quiénes somos?",
+            "category" : "Ajustes de la tienda",
+            "tags"     : "",
+            "url"      : "/articles/configurar-la-pgina-quines-somos-23r0q7",
+            "date"     : "2023-01-12T14:26:17.595Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Agregar el logo al encabezado del sitio",
+            "category" : "Ajustes de la tienda",
+            "tags"     : "",
+            "url"      : "/articles/agregar-el-logo-al-encabezado-del-sitio",
+            "date"     : "2023-01-12T14:24:44.499Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Configurar el perfil de la tienda",
+            "category" : "Ajustes de la tienda",
+            "tags"     : "",
+            "url"      : "/articles/configurar-el-perfil-de-la-tienda",
+            "date"     : "2023-01-12T14:24:32.770Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo añadir un nuevo producto a mi tienda?",
+            "category" : "Puesta en marcha",
+            "tags"     : "",
+            "url"      : "/articles/cmo-aadir-un-nuevo-producto-a-mi-tienda",
+            "date"     : "2023-01-12T14:23:33.341Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo añadir un nuevo productor?",
+            "category" : "Puesta en marcha",
+            "tags"     : "",
+            "url"      : "/articles/cmo-aadir-un-nuevo-productor",
+            "date"     : "2023-01-12T14:23:21.261Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "El panel de control y cómo ingresar",
+            "category" : "Chasqui por dentro",
+            "tags"     : "",
+            "url"      : "/articles/el-panel-de-control-y-cmo-ingresar-23r0im",
+            "date"     : "2023-01-12T14:22:10.096Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "La tienda digital y sus elementos",
+            "category" : "Chasqui por dentro",
+            "tags"     : "",
+            "url"      : "/articles/la-tienda-digital-y-sus-elementos",
+            "date"     : "2023-01-12T14:20:58.091Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Como comprar en Cahsqui",
+            "category" : "",
+            "tags"     : "",
+            "url"      : "/articles/como-comprar-en-cahsqui",
+            "date"     : "2023-01-12T14:19:39.001Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Las imágenes en Chasqui",
+            "category" : "",
+            "tags"     : "",
+            "url"      : "/articles/segundo-artculo",
+            "date"     : "2023-01-12T14:19:20.443Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Qué ofrece?",
+            "category" : "Pimeros pasos",
+            "tags"     : "",
+            "url"      : "/articles/qu-ofrece",
+            "date"     : "2023-01-12T14:18:23.550Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "El comercio electrónico",
+            "category" : "Pimeros pasos",
+            "tags"     : "",
+            "url"      : "/articles/el-comercio-electrnico",
+            "date"     : "2023-01-12T14:18:16.667Z",
+            "description" : ""
+    }  
+  
 ]

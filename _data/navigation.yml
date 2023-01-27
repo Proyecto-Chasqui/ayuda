@@ -5,12 +5,3 @@ items:
   - text: Categorias
     url: /categories
     draft: false
-  - text: Etquetas
-    url: /tags
-    draft: true
-  - text: Year archive
-    url: /year-archive
-    draft: true
-  #- text: Pages
-  #  url: /pages
-  #  draft: true

@@ -169,55 +169,21 @@
         {% endif %}
         <div class="col-md-6 col-lg-3">
           <script type="application/javascript">
-            /* LEGGO L'URL DELLA PAGINA PER CAPIRE SE SONO NEL WIDGET */
-            console.log("CARICO IL WIDGET DI TILEDESK");
-            const queryString2 = window.location.search;
-            console.log("queryString-widget " + queryString2);
-            const urlParams2 = new URLSearchParams(queryString2);
-            console.log("urlParams-widget " + urlParams2);
-            console.log("window.parent.location " + window.parent.location);
-            console.log("window.location " + window.location);
-            var widget_active = "{{site.data.tiledesk.widget_active | json}}";
-            console.log("widget_active ", widget_active);
-            if (
-              urlParams2 == "embedded=tiledesk" ||
-              window.parent.location === window.location
-            ) {
-              console.log("SONO NEL WEB ");
-              if (widget_active == "true") {
-                console.log("WIDGET ON ");
-                var tiledesk_id = "{{site.data.tiledesk.id | json}}";
-                window.tiledeskSettings = {
-                  projectid: tiledesk_id,
-                };
-                (function (d, s, id) {
-                  var w = window;
-                  var d = document;
-                  var i = function () {
-                    i.c(arguments);
-                  };
-                  i.q = [];
-                  i.c = function (args) {
-                    i.q.push(args);
-                  };
-                  w.Tiledesk = i;
-                  var js,
-                    fjs = d.getElementsByTagName(s)[0];
-                  if (d.getElementById(id)) return;
-                  js = d.createElement(s);
-                  js.id = id;
-                  js.async = true;
-                  js.src = "https://widget.tiledesk.com/v5/launch.js";
-                  fjs.parentNode.insertBefore(js, fjs);
-                })(document, "script", "tiledesk-jssdk");
-              }
-              if (widget_active == "false") {
-                console.log("WIDGET OFF ");
-              }
-            } else {
-              console.log("SONO NEL WIDGET ");
-            }
-          </script>
+            window.tiledeskSettings= 
+            {
+                projectid: "63b47fbd017c8a001a3cdad7"
+            };
+            (function(d, s, id) { 
+                var w=window; var d=document; var i=function(){i.c(arguments);};
+                i.q=[]; i.c=function(args){i.q.push(args);}; w.Tiledesk=i;                    
+                var js, fjs=d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js=d.createElement(s); 
+                js.id=id; js.async=true; js.src="https://widget.tiledesk.com/v5/launch.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document,'script','tiledesk-jssdk'));
+        </script>
+      
         </div>
       </div>
     </div>
