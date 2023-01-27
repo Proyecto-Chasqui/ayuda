@@ -12,8 +12,8 @@ description: "Todas las categorías"
                 {% assign article_number_tot = 0 %}
                 {% assign article_number = 0 %}
                 {% assign sections = 0 %}
-                {% assign all_categories = site.data.categories | where: 'status' ,'public' %}
-                {% for category in site.data.categories %}
+                {% assign all_categories = site.data.categories | where: 'status' ,'public' | where: 'slug', page.title %}
+                {% for category in all_categories %}
                     {% capture category_slug %}{{ category.slug}}{% endcapture %}
                     {% capture category_label %}{{ category.name}}{% endcapture %}
                     {% capture category_status %}{{ category.status}}{% endcapture %}
@@ -91,7 +91,7 @@ description: "Todas las categorías"
                                     <!--DEB1: {{category_name}}-->
                                                          <!--CONTROLLO CHE CI SIA ALMENO UN ARTICOLO NELLA CATEGORIA-->
                                     {% assign all_posts = site.data.articles | where: 'category' , category._id | sort: "order" %}
-                                    {% assign my_category_url = "/categories/" | append: category.slug %}
+                                    {% assign my_category_url = "/categoria/" | append: category.slug %}
                                     {% if article_number > 0 %}
                                         <h3 class="heading-3 text-capitalize font-weight-bold font-size-title">
                                             <a href="{{ my_category_url | append: '/' | relative_url }}">
@@ -132,7 +132,7 @@ description: "Todas las categorías"
                                         <ul class="list-inline">
                                             {% for post in all_posts %}
                                                 <li>
-                                                    <a href="{{ post.slug | prepend: '/articles/' | relative_url }}" class="article_link">{{ post.title }}
+                                                    <a href="{{ post.slug | prepend: '/articulos/' | relative_url }}" class="article_link">{{ post.title }}
                                                     </a>
                                                 </li>
                                             {% endfor %}
@@ -158,7 +158,7 @@ description: "Todas las categorías"
                                                     <h4 class="heading-4" itemprop="headline">
                                                         <!-- COSTRUISCO URL SEZIONE -->
                                                         {% capture section_url %}
-                                                            {{ '/categories/' | append: section.url }}
+                                                            {{ '/categoria/' | append: section.url }}
                                                         {% endcapture %}
                                                         <!--CAPISCO SE LA SEZIONE CONTIENE O MENO ARTICOLI-->
                                                         {% if all_posts.size > 0 %}

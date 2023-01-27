@@ -8,10 +8,9 @@ layout: default
          <div class="blog-wrapper section-spacing">
             <div class="container">
                <div class="row">
-                  <div class="col-md-7 col-lg-8 mx-auto"> 
-                     {{paginator.posts}} -- {{paginator.page}}--{{paginator.total_posts}}--{{paginator.total_pages}}
-                   {% for post in paginator.posts %} 
-                   CC post
+                  <div class="col-md-7 col-lg-8 mx-auto">
+                   {% assign posts = site.data.articles | where: 'status' ,'public' | where: 'slug', page.slug %}
+                   {% for post in posts %} 
                      <article class="blog-post blog-spacing wow fadeIn" data-wow-duration="1s">
                      	{% if post.post_image %}
                         <div class="blog-img">
@@ -19,15 +18,15 @@ layout: default
                         </div>
                         {% endif %}
                         <div class="blog-content">
-                           <h3 class="heading-3"><a href="{{post.url}}">{{doc.title}}</a></h3>
+                           <h3 class="heading-3"><a href="{{post.url}}">{{post.title}}</a></h3>
                            <div class="post-excerpt">
-                              {{post.content | truncatewords:30}}
+                              {{post.textBody}}
                            </div>
                         </div>
                         <ul class="blog-meta list-inline">
                            {% if post.author %}
                            <li class="list-inline-item"><img src="{{ '/assets/images/blog-author.png' | relative_url }}" alt="{{post.title}}">
-                           	<a href="{{post.autore_url}}">{{post.author}}</a></li>
+                           	<a href="{{post.autore_url}}">{{post.authorObj.fullname}}</a></li>
                            {% endif %}
                            {% if post.date %}
                            <li class="list-inline-item"><img src="{{ '/assets/images/blog-date.png' | relative_url }}" alt="{{post.title}}">{{post.date | date_to_long_string}}</li>

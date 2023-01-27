@@ -32,6 +32,7 @@ GEM
       terminal-table (~> 1.8)
     jekyll-archives (2.2.1)
       jekyll (>= 3.6, < 5.0)
+    jekyll-datapage-generator (1.4.0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-get-json (1.0.0)
@@ -93,6 +94,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.1.0)
   jekyll-archives
+  jekyll-datapage-generator
   jekyll-feed (~> 0.6)
   jekyll-get-json (~> 1.0)
   jekyll-include-cache

@@ -14,7 +14,7 @@
         {% if all_posts.size > 0 %}
         <div class="col-md-6 col-lg-4">
           {% capture category_url %}{{category.url}}{% endcapture %} {% assign
-          category_url_cat = "/categories/" | append: category_url %}
+          category_url_cat = "/categorias/" | append: category_url %}
           <!--
                         <div class="headline-box" style="border-style: solid; border-radius: 10px;
                             width: 350px; height: 250px; cursor: pointer;" onclick="window.location='{{category_url_cat |  append: '/' | relative_url}}';"> -->
@@ -25,7 +25,7 @@
             <div class="headline-logo">
               {% capture category_url %}{{category.url}}{% endcapture %} {%
               capture category_label %}{{category.name}}{% endcapture %} {%
-              assign category_url_cat = "/categories/" | append: category.slug
+              assign category_url_cat = "/categorias/" | append: category.slug
               %} {% capture category_icon %}{{category.icon}}{% endcapture %} {%
               capture category_button_label %}{{category.button_label}}{%
               endcapture %} {% capture category_description
