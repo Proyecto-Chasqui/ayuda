@@ -91,7 +91,7 @@ description: "Todas las categorías"
                                     <!--DEB1: {{category_name}}-->
                                                          <!--CONTROLLO CHE CI SIA ALMENO UN ARTICOLO NELLA CATEGORIA-->
                                     {% assign all_posts = site.data.articles | where: 'category' , category._id | sort: "order" %}
-                                    {% assign my_category_url = "/categoria/" | append: category.slug %}
+                                    {% assign my_category_url = "/categorias/" | append: category.slug %}
                                     {% if article_number > 0 %}
                                         <h3 class="heading-3 text-capitalize font-weight-bold font-size-title">
                                             <a href="{{ my_category_url | append: '/' | relative_url }}">
