@@ -17,7 +17,7 @@ bundle exec jekyll serve
 ### Build
 
 ```
-bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build
 ```
 
 ### Deploy

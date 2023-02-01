@@ -16,11 +16,11 @@ sass:
 # Site settings
 # SEO START
 vers: "1.0.36"
-title: "" # BACKEND
+title: "Chasqui" # BACKEND
 tagline: "" # BACKEND
 email: "" # BACKEND
-description: "" # BACKEND
-keywords: "" # BACKEND
+description: "Comunidad de consumo solidario" # BACKEND
+keywords: "chasqui, compras, comercio electrónico" # BACKEND
 baseurl: "" 
 # Google Search Console
 google_site_verification: ""
