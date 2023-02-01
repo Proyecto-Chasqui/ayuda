@@ -45,7 +45,7 @@ timezone: Europe/Rome # ATTENTO PERMETTERE IL CAMBIAMENTO IN PRODUZIONE
 # Build settings
 markdown: kramdown
 theme: minima
-url: "https://help.tiledesk.com" # the base hostname & protocol for your site # BACKEND
+url: "https://ayuda.proyectochasqui.com" # the base hostname & protocol for your site # BACKEND
 production: true
 plugins:
   - jekyll-feed

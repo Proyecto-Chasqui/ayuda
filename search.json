@@ -8,7 +8,7 @@ layout: null
             "title"    : "{{ post.title | escape }}",
             "category" : "{{ post.categoryObj.name }}",
             "tags"     : "{{ post.tags | join: ', ' }}",
-            "url"      : "{{ post.slug | prepend: '/articles/' | relative_url }}",
+            "url"      : "{{ post.slug | prepend: '/articulos/' | relative_url }}",
             "date"     : "{{ post.lastUpdate }}",
             "description" : "{{post.description | strip_html | strip_newlines | escape }}"
     } {% unless forloop.last %},{% endunless %} 

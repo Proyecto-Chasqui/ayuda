@@ -5,7 +5,7 @@
             "title"    : "¿Cómo crear un método de pago personalizado?",
             "category" : "Entregas y métodos de pago",
             "tags"     : "",
-            "url"      : "/articles/cmo-crear-un-mtodo-de-pago-personalizado",
+            "url"      : "/articulos/cmo-crear-un-mtodo-de-pago-personalizado",
             "date"     : "2023-02-01T15:31:54.383Z",
             "description" : ""
     } , 
@@ -14,7 +14,7 @@
             "title"    : "Tipos de métodos de pago",
             "category" : "Entregas y métodos de pago",
             "tags"     : "",
-            "url"      : "/articles/tipos-de-mtodos-de-pago",
+            "url"      : "/articulos/tipos-de-mtodos-de-pago",
             "date"     : "2023-02-01T15:27:25.910Z",
             "description" : ""
     } , 
@@ -23,7 +23,7 @@
             "title"    : "¿Cómo crear una zona de entrega? | Envío a domicilio",
             "category" : "Entregas y métodos de pago",
             "tags"     : "",
-            "url"      : "/articles/cmo-crear-una-zona-de-entrega--envo-a-domicilio",
+            "url"      : "/articulos/cmo-crear-una-zona-de-entrega--envo-a-domicilio",
             "date"     : "2023-02-01T15:24:21.037Z",
             "description" : ""
     } , 
@@ -32,7 +32,7 @@
             "title"    : "¿Cómo crear un punto de retiro? | Retiro en el lugar",
             "category" : "Entregas y métodos de pago",
             "tags"     : "",
-            "url"      : "/articles/cmo-crear-un-punto-de-retiro--retiro-en-el-lugar",
+            "url"      : "/articulos/cmo-crear-un-punto-de-retiro--retiro-en-el-lugar",
             "date"     : "2023-02-01T15:12:29.445Z",
             "description" : ""
     } , 
@@ -41,7 +41,7 @@
             "title"    : "Tipos de entregas",
             "category" : "Entregas y métodos de pago",
             "tags"     : "",
-            "url"      : "/articles/tipos-de-entregas",
+            "url"      : "/articulos/tipos-de-entregas",
             "date"     : "2023-02-01T15:06:12.820Z",
             "description" : ""
     } , 
@@ -50,7 +50,7 @@
             "title"    : "Editar la información de un cliente",
             "category" : "Gestión de clientes",
             "tags"     : "",
-            "url"      : "/articles/editar-la-informacin-de-un-cliente",
+            "url"      : "/articulos/editar-la-informacin-de-un-cliente",
             "date"     : "2023-02-01T15:04:49.719Z",
             "description" : ""
     } , 
@@ -59,7 +59,7 @@
             "title"    : "Ver la información de un cliente",
             "category" : "Gestión de clientes",
             "tags"     : "",
-            "url"      : "/articles/ver-la-informacin-de-un-cliente",
+            "url"      : "/articulos/ver-la-informacin-de-un-cliente",
             "date"     : "2023-02-01T15:00:17.951Z",
             "description" : ""
     } , 
@@ -68,7 +68,7 @@
             "title"    : "Tipos de clientes",
             "category" : "Gestión de clientes",
             "tags"     : "",
-            "url"      : "/articles/tipos-de-clientes",
+            "url"      : "/articulos/tipos-de-clientes",
             "date"     : "2023-02-01T14:55:39.336Z",
             "description" : ""
     } , 
@@ -77,7 +77,7 @@
             "title"    : "¿Qué son, para qué sirven y cómo crearlas?",
             "category" : "Gestión de catálogos",
             "tags"     : "",
-            "url"      : "/articles/qu-son-para-qu-sirven-y-cmo-crearlas",
+            "url"      : "/articulos/qu-son-para-qu-sirven-y-cmo-crearlas",
             "date"     : "2023-02-01T14:43:34.562Z",
             "description" : ""
     } , 
@@ -86,7 +86,7 @@
             "title"    : "Los sellos y su significado",
             "category" : "Gestión de catálogos",
             "tags"     : "",
-            "url"      : "/articles/los-sellos-y-su-significado",
+            "url"      : "/articulos/los-sellos-y-su-significado",
             "date"     : "2023-02-01T14:38:19.489Z",
             "description" : ""
     } , 
@@ -95,7 +95,7 @@
             "title"    : "Asignar etiquetas (sellos y categorías) a los productos",
             "category" : "Gestión de catálogos",
             "tags"     : "",
-            "url"      : "/articles/asignar-etiquetas-sellos-y-categoras-a-los-productos",
+            "url"      : "/articulos/asignar-etiquetas-sellos-y-categoras-a-los-productos",
             "date"     : "2023-02-01T14:29:05.898Z",
             "description" : ""
     } , 
@@ -104,7 +104,7 @@
             "title"    : "Crear categorías",
             "category" : "Gestión de catálogos",
             "tags"     : "",
-            "url"      : "/articles/crear-categoras",
+            "url"      : "/articulos/crear-categoras",
             "date"     : "2023-02-01T14:26:27.034Z",
             "description" : ""
     } , 
@@ -113,7 +113,7 @@
             "title"    : "¿Qué son las etiquetas y los grupos de etiquetas?",
             "category" : "Gestión de catálogos",
             "tags"     : "",
-            "url"      : "/articles/qu-son-las-etiquetas-y-los-grupos-de-etiquetas",
+            "url"      : "/articulos/qu-son-las-etiquetas-y-los-grupos-de-etiquetas",
             "date"     : "2023-02-01T14:23:15.378Z",
             "description" : ""
     } , 
@@ -122,7 +122,7 @@
             "title"    : "Las variantes de productos ¿Qué son y cómo crearlas?",
             "category" : "Gestión de catálogos",
             "tags"     : "",
-            "url"      : "/articles/las-variantes-de-productos-qu-son-y-cmo-crearlas",
+            "url"      : "/articulos/las-variantes-de-productos-qu-son-y-cmo-crearlas",
             "date"     : "2023-02-01T14:19:46.487Z",
             "description" : ""
     } , 
@@ -131,7 +131,7 @@
             "title"    : "Habilitar/deshabilitar un producto",
             "category" : "Gestión de catálogos",
             "tags"     : "",
-            "url"      : "/articles/habilitardeshabilitar-un-producto",
+            "url"      : "/articulos/habilitardeshabilitar-un-producto",
             "date"     : "2023-02-01T14:09:41.142Z",
             "description" : ""
     } , 
@@ -140,7 +140,7 @@
             "title"    : "Introducción a Chasqui",
             "category" : "Primeros pasos",
             "tags"     : "",
-            "url"      : "/articles/introduccion-a-chasqui",
+            "url"      : "/articulos/introduccion-a-chasqui",
             "date"     : "2023-01-24T15:11:25.208Z",
             "description" : ""
     } , 
@@ -149,7 +149,7 @@
             "title"    : "¿Por qué decimos que es un proyecto libre?",
             "category" : "Primeros pasos",
             "tags"     : "",
-            "url"      : "/articles/por-qu-decimos-que-es-un-proyecto-libre",
+            "url"      : "/articulos/por-qu-decimos-que-es-un-proyecto-libre",
             "date"     : "2023-01-12T21:27:20.582Z",
             "description" : ""
     } , 
@@ -158,7 +158,7 @@
             "title"    : "¿Qué son las compras colectivas?",
             "category" : "Compras colectivas",
             "tags"     : "",
-            "url"      : "/articles/qu-son-las-compras-colectivas",
+            "url"      : "/articulos/qu-son-las-compras-colectivas",
             "date"     : "2023-01-12T15:47:09.797Z",
             "description" : ""
     } , 
@@ -167,7 +167,7 @@
             "title"    : "Aceptar un nuevo pedido",
             "category" : "Gestión de los pedidos",
             "tags"     : "",
-            "url"      : "/articles/aceptar-un-nuevo-pedido",
+            "url"      : "/articulos/aceptar-un-nuevo-pedido",
             "date"     : "2023-01-12T15:45:38.018Z",
             "description" : ""
     } , 
@@ -176,7 +176,7 @@
             "title"    : "Editar un producto",
             "category" : "Gestión de catálogos",
             "tags"     : "",
-            "url"      : "/articles/editar-un-producto",
+            "url"      : "/articulos/editar-un-producto",
             "date"     : "2023-01-12T15:32:45.901Z",
             "description" : ""
     } , 
@@ -185,7 +185,7 @@
             "title"    : "¿Cómo habilitar las ventas?",
             "category" : "Puesta en marcha",
             "tags"     : "",
-            "url"      : "/articles/cmo-habilitar-las-ventas",
+            "url"      : "/articulos/cmo-habilitar-las-ventas",
             "date"     : "2023-01-12T15:09:31.825Z",
             "description" : ""
     } , 
@@ -194,7 +194,7 @@
             "title"    : "Agregar los datos de contacto y redes sociales",
             "category" : "Ajustes de la tienda",
             "tags"     : "",
-            "url"      : "/articles/agregar-los-datos-de-contacto-y-redes-sociales",
+            "url"      : "/articulos/agregar-los-datos-de-contacto-y-redes-sociales",
             "date"     : "2023-01-12T15:08:25.396Z",
             "description" : ""
     } , 
@@ -203,7 +203,7 @@
             "title"    : "¿Qué es la multitienda de Chasqui?",
             "category" : "Chasqui por dentro",
             "tags"     : "",
-            "url"      : "/articles/qu-es-la-multitienda-de-chasqui",
+            "url"      : "/articulos/qu-es-la-multitienda-de-chasqui",
             "date"     : "2023-01-12T15:06:28.256Z",
             "description" : ""
     } , 
@@ -212,7 +212,7 @@
             "title"    : "¿Cómo esta conformado Chasqui?",
             "category" : "Chasqui por dentro",
             "tags"     : "",
-            "url"      : "/articles/cmo-esta-conformado-chasqui",
+            "url"      : "/articulos/cmo-esta-conformado-chasqui",
             "date"     : "2023-01-12T15:05:44.300Z",
             "description" : ""
     } , 
@@ -221,7 +221,7 @@
             "title"    : "¿Qué es Chasqui?",
             "category" : "Primeros pasos",
             "tags"     : "",
-            "url"      : "/articles/qu-es-chasqui",
+            "url"      : "/articulos/qu-es-chasqui",
             "date"     : "2023-01-12T15:04:37.904Z",
             "description" : ""
     } , 
@@ -230,7 +230,7 @@
             "title"    : "Configurar la página ¿Quiénes somos?",
             "category" : "Ajustes de la tienda",
             "tags"     : "",
-            "url"      : "/articles/configurar-la-pgina-quines-somos-23r0q7",
+            "url"      : "/articulos/configurar-la-pgina-quines-somos-23r0q7",
             "date"     : "2023-01-12T14:26:17.595Z",
             "description" : ""
     } , 
@@ -239,7 +239,7 @@
             "title"    : "Agregar el logo al encabezado del sitio",
             "category" : "Ajustes de la tienda",
             "tags"     : "",
-            "url"      : "/articles/agregar-el-logo-al-encabezado-del-sitio",
+            "url"      : "/articulos/agregar-el-logo-al-encabezado-del-sitio",
             "date"     : "2023-01-12T14:24:44.499Z",
             "description" : ""
     } , 
@@ -248,7 +248,7 @@
             "title"    : "Configurar el perfil de la tienda",
             "category" : "Ajustes de la tienda",
             "tags"     : "",
-            "url"      : "/articles/configurar-el-perfil-de-la-tienda",
+            "url"      : "/articulos/configurar-el-perfil-de-la-tienda",
             "date"     : "2023-01-12T14:24:32.770Z",
             "description" : ""
     } , 
@@ -257,7 +257,7 @@
             "title"    : "¿Cómo añadir un nuevo producto a mi tienda?",
             "category" : "Puesta en marcha",
             "tags"     : "",
-            "url"      : "/articles/cmo-aadir-un-nuevo-producto-a-mi-tienda",
+            "url"      : "/articulos/cmo-aadir-un-nuevo-producto-a-mi-tienda",
             "date"     : "2023-01-12T14:23:33.341Z",
             "description" : ""
     } , 
@@ -266,7 +266,7 @@
             "title"    : "¿Cómo añadir un nuevo productor?",
             "category" : "Puesta en marcha",
             "tags"     : "",
-            "url"      : "/articles/cmo-aadir-un-nuevo-productor",
+            "url"      : "/articulos/cmo-aadir-un-nuevo-productor",
             "date"     : "2023-01-12T14:23:21.261Z",
             "description" : ""
     } , 
@@ -275,7 +275,7 @@
             "title"    : "El panel de control y cómo ingresar",
             "category" : "Chasqui por dentro",
             "tags"     : "",
-            "url"      : "/articles/el-panel-de-control-y-cmo-ingresar-23r0im",
+            "url"      : "/articulos/el-panel-de-control-y-cmo-ingresar-23r0im",
             "date"     : "2023-01-12T14:22:10.096Z",
             "description" : ""
     } , 
@@ -284,7 +284,7 @@
             "title"    : "La tienda digital y sus elementos",
             "category" : "Chasqui por dentro",
             "tags"     : "",
-            "url"      : "/articles/la-tienda-digital-y-sus-elementos",
+            "url"      : "/articulos/la-tienda-digital-y-sus-elementos",
             "date"     : "2023-01-12T14:20:58.091Z",
             "description" : ""
     } , 
@@ -293,7 +293,7 @@
             "title"    : "¿Qué ofrece?",
             "category" : "Primeros pasos",
             "tags"     : "",
-            "url"      : "/articles/qu-ofrece",
+            "url"      : "/articulos/qu-ofrece",
             "date"     : "2023-01-12T14:18:23.550Z",
             "description" : ""
     } , 
@@ -302,7 +302,7 @@
             "title"    : "El comercio electrónico",
             "category" : "Primeros pasos",
             "tags"     : "",
-            "url"      : "/articles/el-comercio-electrnico",
+            "url"      : "/articulos/el-comercio-electrnico",
             "date"     : "2023-01-12T14:18:16.667Z",
             "description" : ""
     }  
