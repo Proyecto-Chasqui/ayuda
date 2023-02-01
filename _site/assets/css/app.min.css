@@ -15330,6 +15330,9 @@ h6 a:hover {
 .recent-widget .recent-wrapper .recent-details h6 {
     font-weight: 400;
 }
+.recent-widget .recent-wrapper.active .recent-details h6 {
+    font-weight: 600;
+}
 .recent-widget .recent-wrapper .recent-meta {
     margin: 0;
     font-size: 14px;

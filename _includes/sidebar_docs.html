@@ -1,20 +1,29 @@
-<!--ELENCO NUOVI BLOG SULLA SPALLA A DX-->
-<!-- <div class="sidebar-area sidebar-right">
-<h5 class="sub-title heading-5">Latest blog post</h5>
-<div class="recent-widget sidebar-widget">
-  {% for doc in site.docs limit:8 %}
-   <div class="recent-wrapper">
-      <a class="recent-img">
-      <img src="{{doc.post_image | relative_url}}" alt="{{doc.title}}">
-      </a>
-      <div class="recent-details">
-         <h6 class="heading-6"> <a href="{{doc.url | relative_url}}">{{doc.title}}</a> </h6>
-         <ul class="recent-meta list-inline">
-            <li class="list-inline-item">{{doc.date | date_to_long_string}}</li>
-         </ul>
+<div class="sidebar-area sidebar-right topics-service bg-color3">
+{% assign posts = site.data.articles | where: 'status' ,'public' | where: 'slug', page.slug %}
+{% for post in posts %} 
+   <h5 class="sub-title heading-5">{{post.categoryObj.name}}</h5>
+   <div class="recent-widget sidebar-widget">
+   {% assign docs = site.data.articles | where: "category", post.categoryObj._id %}
+   {% for doc in docs %}
+      {% if doc.slug == page.slug %}
+         {% assign active = "active" %}
+      {% else %}
+         {% assign active = "" %}
+      {% endif %}
+      <div class="recent-wrapper {{ active }}">
+         {% if doc.post_image %}
+         <a class="recent-img" href="{{doc.slug | prepend: "categorias/" |relative_url}}">
+            <img src="{{doc.post_image | relative_url}}" alt="{{doc.title}}">
+         </a>
+         {% endif %}
+         <div class="recent-details">
+            <h6 class="heading-6"> <a href="{{doc.slug | prepend: "articulos/" |relative_url}}">{{doc.title}}</a> </h6>
+            <!-- <ul class="recent-meta list-inline">
+               <li class="list-inline-item">{{doc.lastUpdate | date_to_long_string}}</li>
+            </ul> -->
+         </div>
       </div>
+   {% endfor %}
    </div>
-  {% endfor %}
+   {% endfor %}
 </div>
-
-</div> -->

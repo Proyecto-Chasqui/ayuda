@@ -2,8 +2,143 @@
   
   
     {
+            "title"    : "¿Cómo crear un método de pago personalizado?",
+            "category" : "Entregas y métodos de pago",
+            "tags"     : "",
+            "url"      : "/articles/cmo-crear-un-mtodo-de-pago-personalizado",
+            "date"     : "2023-02-01T15:31:54.383Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Tipos de métodos de pago",
+            "category" : "Entregas y métodos de pago",
+            "tags"     : "",
+            "url"      : "/articles/tipos-de-mtodos-de-pago",
+            "date"     : "2023-02-01T15:27:25.910Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo crear una zona de entrega? | Envío a domicilio",
+            "category" : "Entregas y métodos de pago",
+            "tags"     : "",
+            "url"      : "/articles/cmo-crear-una-zona-de-entrega--envo-a-domicilio",
+            "date"     : "2023-02-01T15:24:21.037Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo crear un punto de retiro? | Retiro en el lugar",
+            "category" : "Entregas y métodos de pago",
+            "tags"     : "",
+            "url"      : "/articles/cmo-crear-un-punto-de-retiro--retiro-en-el-lugar",
+            "date"     : "2023-02-01T15:12:29.445Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Tipos de entregas",
+            "category" : "Entregas y métodos de pago",
+            "tags"     : "",
+            "url"      : "/articles/tipos-de-entregas",
+            "date"     : "2023-02-01T15:06:12.820Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Editar la información de un cliente",
+            "category" : "Gestión de clientes",
+            "tags"     : "",
+            "url"      : "/articles/editar-la-informacin-de-un-cliente",
+            "date"     : "2023-02-01T15:04:49.719Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Ver la información de un cliente",
+            "category" : "Gestión de clientes",
+            "tags"     : "",
+            "url"      : "/articles/ver-la-informacin-de-un-cliente",
+            "date"     : "2023-02-01T15:00:17.951Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Tipos de clientes",
+            "category" : "Gestión de clientes",
+            "tags"     : "",
+            "url"      : "/articles/tipos-de-clientes",
+            "date"     : "2023-02-01T14:55:39.336Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Qué son, para qué sirven y cómo crearlas?",
+            "category" : "Gestión de catálogos",
+            "tags"     : "",
+            "url"      : "/articles/qu-son-para-qu-sirven-y-cmo-crearlas",
+            "date"     : "2023-02-01T14:43:34.562Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Los sellos y su significado",
+            "category" : "Gestión de catálogos",
+            "tags"     : "",
+            "url"      : "/articles/los-sellos-y-su-significado",
+            "date"     : "2023-02-01T14:38:19.489Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Asignar etiquetas (sellos y categorías) a los productos",
+            "category" : "Gestión de catálogos",
+            "tags"     : "",
+            "url"      : "/articles/asignar-etiquetas-sellos-y-categoras-a-los-productos",
+            "date"     : "2023-02-01T14:29:05.898Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Crear categorías",
+            "category" : "Gestión de catálogos",
+            "tags"     : "",
+            "url"      : "/articles/crear-categoras",
+            "date"     : "2023-02-01T14:26:27.034Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Qué son las etiquetas y los grupos de etiquetas?",
+            "category" : "Gestión de catálogos",
+            "tags"     : "",
+            "url"      : "/articles/qu-son-las-etiquetas-y-los-grupos-de-etiquetas",
+            "date"     : "2023-02-01T14:23:15.378Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Las variantes de productos ¿Qué son y cómo crearlas?",
+            "category" : "Gestión de catálogos",
+            "tags"     : "",
+            "url"      : "/articles/las-variantes-de-productos-qu-son-y-cmo-crearlas",
+            "date"     : "2023-02-01T14:19:46.487Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Habilitar/deshabilitar un producto",
+            "category" : "Gestión de catálogos",
+            "tags"     : "",
+            "url"      : "/articles/habilitardeshabilitar-un-producto",
+            "date"     : "2023-02-01T14:09:41.142Z",
+            "description" : ""
+    } , 
+  
+    {
             "title"    : "Introducción a Chasqui",
-            "category" : "Pimeros pasos",
+            "category" : "Primeros pasos",
             "tags"     : "",
             "url"      : "/articles/introduccion-a-chasqui",
             "date"     : "2023-01-24T15:11:25.208Z",
@@ -12,7 +147,7 @@
   
     {
             "title"    : "¿Por qué decimos que es un proyecto libre?",
-            "category" : "Pimeros pasos",
+            "category" : "Primeros pasos",
             "tags"     : "",
             "url"      : "/articles/por-qu-decimos-que-es-un-proyecto-libre",
             "date"     : "2023-01-12T21:27:20.582Z",
@@ -34,24 +169,6 @@
             "tags"     : "",
             "url"      : "/articles/aceptar-un-nuevo-pedido",
             "date"     : "2023-01-12T15:45:38.018Z",
-            "description" : ""
-    } , 
-  
-    {
-            "title"    : "Tipos de entregas",
-            "category" : "Entregas y métodos de pago",
-            "tags"     : "",
-            "url"      : "/articles/tipos-de-entregas",
-            "date"     : "2023-01-12T15:41:31.732Z",
-            "description" : ""
-    } , 
-  
-    {
-            "title"    : "Tipos de clientes",
-            "category" : "Gestión de clientes",
-            "tags"     : "",
-            "url"      : "/articles/tipos-de-clientes",
-            "date"     : "2023-01-12T15:38:40.322Z",
             "description" : ""
     } , 
   
@@ -102,7 +219,7 @@
   
     {
             "title"    : "¿Qué es Chasqui?",
-            "category" : "Pimeros pasos",
+            "category" : "Primeros pasos",
             "tags"     : "",
             "url"      : "/articles/qu-es-chasqui",
             "date"     : "2023-01-12T15:04:37.904Z",
@@ -173,26 +290,8 @@
     } , 
   
     {
-            "title"    : "Como comprar en Cahsqui",
-            "category" : "",
-            "tags"     : "",
-            "url"      : "/articles/como-comprar-en-cahsqui",
-            "date"     : "2023-01-12T14:19:39.001Z",
-            "description" : ""
-    } , 
-  
-    {
-            "title"    : "Las imágenes en Chasqui",
-            "category" : "",
-            "tags"     : "",
-            "url"      : "/articles/segundo-artculo",
-            "date"     : "2023-01-12T14:19:20.443Z",
-            "description" : ""
-    } , 
-  
-    {
             "title"    : "¿Qué ofrece?",
-            "category" : "Pimeros pasos",
+            "category" : "Primeros pasos",
             "tags"     : "",
             "url"      : "/articles/qu-ofrece",
             "date"     : "2023-01-12T14:18:23.550Z",
@@ -201,7 +300,7 @@
   
     {
             "title"    : "El comercio electrónico",
-            "category" : "Pimeros pasos",
+            "category" : "Primeros pasos",
             "tags"     : "",
             "url"      : "/articles/el-comercio-electrnico",
             "date"     : "2023-01-12T14:18:16.667Z",
