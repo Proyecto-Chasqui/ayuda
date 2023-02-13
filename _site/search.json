@@ -2,6 +2,123 @@
   
   
     {
+            "title"    : "¿Cómo ver los pedidos de las compras colectivas?",
+            "category" : "Compras colectivas",
+            "tags"     : "",
+            "url"      : "/articulos/cmo-ver-los-pedidos-de-las-compras-colectivas",
+            "date"     : "2023-02-13T22:14:42.778Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo sumarse a una compra colectiva en Chasqui?",
+            "category" : "Compras colectivas",
+            "tags"     : "",
+            "url"      : "/articulos/cmo-sumarse-a-una-compra-colectiva-en-chasqui",
+            "date"     : "2023-02-13T22:13:08.846Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo habilitar la opción para aceptar compras colectivas en mi tienda?",
+            "category" : "Compras colectivas",
+            "tags"     : "",
+            "url"      : "/articulos/cmo-habilitar-la-opcin-para-aceptar-compras-colectivas-en-mi-tienda",
+            "date"     : "2023-02-13T22:11:47.703Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo iniciar una compra colectiva en Chasqui?",
+            "category" : "Compras colectivas",
+            "tags"     : "",
+            "url"      : "/articulos/cmo-iniciar-una-compra-colectiva-en-chasqui",
+            "date"     : "2023-02-13T22:10:32.716Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo copiar la información de los pedidos para enviarlos a una planilla u hoja de cálculo (Excel)?",
+            "category" : "Gestión de los pedidos",
+            "tags"     : "",
+            "url"      : "/articulos/cmo-copiar-la-informacin-de-los-pedidos-para-enviarlos-a-una-planilla-u-hoja-de-clculo-excel",
+            "date"     : "2023-02-13T22:04:14.869Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo obtener el remito con el detalle de cada pedido?",
+            "category" : "Gestión de los pedidos",
+            "tags"     : "",
+            "url"      : "/articulos/cmo-obtener-el-remito-con-el-detalle-de-cada-pedido",
+            "date"     : "2023-02-13T22:01:32.678Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo filtrar los pedidos?",
+            "category" : "Gestión de los pedidos",
+            "tags"     : "",
+            "url"      : "/articulos/cmo-filtrar-los-pedidos",
+            "date"     : "2023-02-13T21:58:14.845Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Ver los pedidos finalizados",
+            "category" : "Gestión de los pedidos",
+            "tags"     : "",
+            "url"      : "/articulos/ver-los-pedidos-finalizados",
+            "date"     : "2023-02-13T21:55:41.198Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Marcar pedido como &quot;Entregado/Finalizado&quot;",
+            "category" : "Gestión de los pedidos",
+            "tags"     : "",
+            "url"      : "/articulos/marcar-pedido-como-entregadofinalizado",
+            "date"     : "2023-02-13T21:52:50.260Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Marcar pedido como “En entrega”",
+            "category" : "Gestión de los pedidos",
+            "tags"     : "",
+            "url"      : "/articulos/marcar-pedido-como-en-entrega",
+            "date"     : "2023-02-13T21:50:50.700Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "Aceptar un nuevo pedido",
+            "category" : "Gestión de los pedidos",
+            "tags"     : "",
+            "url"      : "/articulos/aceptar-un-nuevo-pedido",
+            "date"     : "2023-02-13T21:46:50.974Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo obtener tus credenciales de Mercado Pago?",
+            "category" : "Entregas y métodos de pago",
+            "tags"     : "",
+            "url"      : "/articulos/cmo-obtener-tus-credenciales-de-mercado-pago",
+            "date"     : "2023-02-13T21:45:44.382Z",
+            "description" : ""
+    } , 
+  
+    {
+            "title"    : "¿Cómo crear un método de pago por Mercado Pago?",
+            "category" : "Entregas y métodos de pago",
+            "tags"     : "",
+            "url"      : "/articulos/cmo-crear-un-mtodo-de-pago-por-mercado-pago",
+            "date"     : "2023-02-13T21:34:22.833Z",
+            "description" : ""
+    } , 
+  
+    {
             "title"    : "¿Cómo crear un método de pago personalizado?",
             "category" : "Entregas y métodos de pago",
             "tags"     : "",
@@ -160,15 +277,6 @@
             "tags"     : "",
             "url"      : "/articulos/qu-son-las-compras-colectivas",
             "date"     : "2023-01-12T15:47:09.797Z",
-            "description" : ""
-    } , 
-  
-    {
-            "title"    : "Aceptar un nuevo pedido",
-            "category" : "Gestión de los pedidos",
-            "tags"     : "",
-            "url"      : "/articulos/aceptar-un-nuevo-pedido",
-            "date"     : "2023-01-12T15:45:38.018Z",
             "description" : ""
     } , 
   
